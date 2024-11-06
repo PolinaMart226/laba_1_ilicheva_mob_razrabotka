@@ -33,7 +33,6 @@ public class Activity_2 extends AppCompatActivity
                 startActivity(intent);
             }
         };
-
         btnGoToMainAct.setOnClickListener(oclBtnGoToMainAct);
     }
 }

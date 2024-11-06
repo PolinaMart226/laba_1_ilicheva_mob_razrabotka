@@ -1,50 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity_2">
 
-  <Button
-      android:id="@+id/btnGoToMainAct"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginStart="141dp"
-      android:layout_marginTop="284dp"
-      android:layout_marginEnd="177dp"
-      android:text="Перейти на главный экран (Ильичева)"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.415"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
-
-  <TextView
-      android:id="@+id/textView2"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginStart="199dp"
-      android:layout_marginTop="66dp"
-      android:layout_marginEnd="199dp"
-      android:layout_marginBottom="87dp"
-      android:text="Экран 2"
-      app:layout_constraintBottom_toTopOf="@+id/btnGoToMainAct"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
-
-  <TextView
-      android:id="@+id/textView3"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginStart="108dp"
-      android:layout_marginTop="84dp"
-      android:layout_marginEnd="84dp"
-      android:text="Передание параметра: Ильичева"
+  <LinearLayout
+      android:id="@+id/linearLayout2"
+      android:layout_width="403dp"
+      android:layout_height="78dp"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="8dp"
+      android:orientation="horizontal"
+      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintHorizontal_bias="0.0"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/textView2" />
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.008">
+
+    <Button
+        android:id="@+id/btnGoToMainAct"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:text="Кнопка 1" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_weight="4"
+        android:text="Кнопка 2" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_weight="4"
+        android:text="Кнопка 3" />
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="397dp"
+      android:layout_height="52dp"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginEnd="20dp"
+      android:layout_marginBottom="20dp"
+      android:orientation="horizontal"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.43">
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Кнопка 4" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Кнопка 5" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="392dp"
+      android:layout_height="53dp"
+      android:layout_marginStart="8dp"
+      android:layout_marginEnd="16dp"
+      android:orientation="horizontal"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.913">
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Кнопка 6" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Кнопка 7" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Кнопка 8" />
+  </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
